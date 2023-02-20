@@ -1,0 +1,45 @@
+.edit-nickname-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 28px;
+}
+
+.nickname-input {
+    background-color: #3f434a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding-left: 4px;
+    height: 28px;
+}
+
+#purple.nickname-input {
+    color: #7f73ba;
+    background-color: #e9eaed;
+}
+
+.save-nickName-button {
+    border: none;
+    font-family: "Roboto";
+}
+
+#dark.save-nickName-button {
+    background-color: rgb(24,25,28);
+    color: white;
+}
+
+#light.save-nickName-button {
+    background-color: #ffffff;
+    color: #060607;
+}
+
+#purple.save-nickName-button {
+    background-color: #ffffff;
+    color: #5F50A9;
+}
+
+.save-nickName-button {
+    font-size: 11px;
+}

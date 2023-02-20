@@ -1,0 +1,122 @@
+.create-server-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 460px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+#purple.create-server-container {
+  color: #5F50A9;
+  background-color: #dfdcee;
+}
+
+.create-server-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0px;
+}
+
+.create-server-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.create-server-subtext {
+  text-align: center;
+  color: #50565f;
+}
+
+#purple.create-server-subtext {
+  color: #7f73ba;
+}
+
+.create-server-form-container {
+  width: 430px;
+}
+
+.create-server-form-title {
+  text-transform: uppercase;
+  color: #50565f;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+
+#purple.create-server-form-title {
+  color: #5F50A9;
+}
+
+.input-fields {
+  font-size: 14px;
+  padding: 5px 3px;
+  width: 99%;
+  border: none;
+  border-radius: 2px;
+  background-color: #e3e5e8;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+#purple.input-fields {
+  background-color: #e9eaed;
+}
+
+.input-fields:focus {
+  outline: none;
+}
+
+.create-server-buttons-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.create-server-button-cancel {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  color: rgb(34, 34, 34);
+  text-align: left;
+  line-height: initial;
+}
+
+#purple.create-server-button-cancel {
+  color: #5F50A9;
+}
+
+.create-server-button-submit {
+  border: none;
+  background-color: #5a65ea;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 3px;
+}
+
+.create-server-button-submit:hover {
+  background-color: #3c4beb;
+}
+
+#purple.create-server-button-submit {
+  background-color: #7f73ba;
+}
+
+#purple.create-server-button-submit:hover {
+  background-color: #4c4087;
+}
+
+.create-server-button-cancel:hover {
+  color: black;
+}
+
+#purple.create-server-button-cancel:hover {
+  color: #bfb9dd;
+}
