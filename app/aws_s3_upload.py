@@ -11,7 +11,8 @@ ALLOWED_EXTENSIONS = {"pdf", "png", "jpg", "jpeg", "gif", "svg"}
 s3 = boto3.client(
    "s3",
    aws_access_key_id=os.environ.get("S3_KEY"),
-   aws_secret_access_key=os.environ.get("S3_SECRET")
+   aws_secret_access_key=os.environ.get("S3_SECRET"),
+   endpoint_url="https://fatalbanana.onrender.com/",
 )
 
 
@@ -28,6 +29,7 @@ def get_unique_filename(filename):
 def upload_file_to_s3(file, acl="public-read"):
 
     print("IN FILE UPLOAD", file)
+    print("s3 key", os.environ.get("S3_KEY"))
     try:
         s3.upload_fileobj(
             file,
